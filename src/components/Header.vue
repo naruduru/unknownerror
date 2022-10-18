@@ -17,7 +17,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
 .top-bar {
   position: fixed !important;
   left: 0 !important;
@@ -34,7 +35,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: blue;
+  background-color: $black-025;
 }
 
 li {
