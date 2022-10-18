@@ -16,11 +16,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
 .middle {
   width: calc(100% - 300px - 24px);
   float: left;
-  background-color: green;
+  background-color: $global_background_color;
 }
 
 @media screen and (max-width: 980px) {
