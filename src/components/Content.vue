@@ -1,39 +1,29 @@
 <template>
-  <div class="container">
-    <div class="column middle">
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-      <p>Downgrading Docker on the host to match container's older GLIBC: doable / good idea?</p>
-    </div>
+  <div class="content">
+    <Middle/>
     <Right/>
   </div>
 </template>
 
 <script>
 import Right from "@/components/Right";
+import Middle from "@/components/Middle";
 export default {
   name: "Content",
-  components: {Right}
+  components: {Middle, Right}
 }
 </script>
 
 <style scoped>
-.container {
-  display: flex;
-  position: relative;
-  width: 100%;
-  max-width: 1264px;
-  flex: 1 0 auto;
+.content {
+  width: calc(100% - 164px);
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.column {
-}
-
-.column.middle {
-  background-color: green;
+@media screen and (max-width: 640px){
+  .content {
+    width: 100%;
+  }
 }
 </style>

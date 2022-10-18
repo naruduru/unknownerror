@@ -1,11 +1,25 @@
 <template>
   <div class="footer">
-    <ul>
-      <li>Footer</li>
-      <li>Footer</li>
-      <li>Footer</li>
-      <li>Footer</li>
-    </ul>
+    <div class="site-footer--container">
+      <ul>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+        <li>Footer</li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -15,8 +29,10 @@ export default {
 }
 </script>
 
-<style scoped>
-footer {
+<style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
+
+.footer {
   display: block;
 }
 
@@ -28,4 +44,13 @@ ul {
   background-color: #333;
   width: 100%;
 }
+
+.site-footer--container {
+  max-width: $global_width;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
 </style>

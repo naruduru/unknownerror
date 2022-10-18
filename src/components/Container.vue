@@ -1,6 +1,8 @@
 <template>
-  <Left/>
-  <Content/>
+  <div class="container">
+    <Left/>
+    <Content/>
+  </div>
 </template>
 
 <script>
@@ -12,6 +14,14 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
+.container {
+  display: flex;
+  position: relative;
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: $global_width;
+  margin: 0 auto;
+}
 </style>

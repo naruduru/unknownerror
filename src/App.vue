@@ -23,5 +23,11 @@ export default {
 body {
   padding-top: 50px;
   display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+div {
+  display: block;
 }
 </style>

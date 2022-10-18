@@ -1,20 +1,25 @@
 <template>
-  <div class="column right-side">
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
-    <p>Right</p>
+  <div class="right-side">
+    <p>1 Right</p>
+    <p>2 Right</p>
+    <p>3 Right</p>
+    <p>4 Right</p>
+    <p>5 Right</p>
+    <p>6 Right</p>
+    <p>7 Right</p>
+    <p>8 Right</p>
+    <p>9 Right</p>
+    <p>0 Right</p>
+    <p>1 Right</p>
+    <p>2 Right</p>
+    <p>3 Right</p>
+    <p>4 Right</p>
+    <p>5 Right</p>
+    <p>1 Right</p>
+    <p>2 Right</p>
+    <p>3 Right</p>
+    <p>4 Right</p>
+    <p>5 Right</p>
   </div>
 </template>
 
@@ -25,10 +30,19 @@ export default {
 </script>
 
 <style scoped>
-.column {
+.right-side {
+  float: right;
+  width: 300px;
+  background-color: yellow;
 }
 
-.column.right-side {
-  background-color: yellow;
+@media screen and (max-width: 980px) {
+  .right-side {
+    float: none;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+  }
 }
 </style>
