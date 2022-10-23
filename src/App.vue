@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style>
+body * {
+  box-sizing: inherit;
+}
 body {
   padding-top: 50px;
   display: flex;

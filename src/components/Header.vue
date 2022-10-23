@@ -15,7 +15,7 @@
           <a class="navigation--item">For Teams</a>
         </li>
       </ol>
-      <form class=".s-topbar .s-topbar--searchbar">
+      <form class="s-top-bar s-top-bar--searchbar">
         <div class="top-bar--searchbar--input-group">
           <input class="s-input"/>
         </div>
@@ -59,7 +59,7 @@ export default {
 }
 
 .top-bar--container {
-  width: 97.2307692rem;
+  width: 81rem;
   max-width: 100%;
   height: 100%;
   display: flex;
@@ -114,7 +114,7 @@ li {
 .s-input {
   width: 100%;
   margin: 0;
-  padding: 0.6em 0.7em;
+  padding: 0.6em 0.6em;
   border: 1px solid $black-200;
   border-radius: 3px;
   font-size: 13px;
@@ -129,7 +129,7 @@ li {
   scrollbar-color: var(--scrollbar) transparent;
 }
 .pr12 {
-  padding-right: var(--su12) !important;
+  padding-right: 12px !important;
 }
 .ml-auto {
   margin-left: auto !important;
@@ -192,5 +192,14 @@ li {
 .top-bar--searchbar--input-group {
   position: relative;
   flex-grow: 1;
+}
+
+.s-top-bar--searchbar {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 10000;
+  flex-grow: 1;
+  box-sizing: border-box;
 }
 </style>

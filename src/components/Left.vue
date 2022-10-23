@@ -32,6 +32,7 @@ export default {
   background-color: red;
   z-index: 1000;
   position: relative !important;
+  overflow-y: auto;
 }
 
 @media screen and (max-width: 640px) {
@@ -46,7 +47,8 @@ export default {
   overflow-y: auto;
   background-color: coral;
   max-height: calc(100vh - 50px);
-  top: 50px;
+  top: 24px;
+  margin-bottom: 8px;
 }
 
 
