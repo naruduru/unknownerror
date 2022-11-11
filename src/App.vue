@@ -28,9 +28,12 @@ body {
   display: flex;
   min-height: 100%;
   flex-direction: column;
+  margin: 0;
 }
 
 div {
   display: block;
+  padding: 0;
+  border: 0;
 }
 </style>

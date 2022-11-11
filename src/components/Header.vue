@@ -5,13 +5,13 @@
         <span class="logo-img"><img :src="require('@/assets/unknown-logo.png')"/></span>
       </a>
       <ol class="navigation">
-        <li>
+        <li class="md:d-none">
           <a class="navigation--item">About</a>
         </li>
         <li>
           <a class="navigation--item">Products</a>
         </li>
-        <li>
+        <li class="md:d-none">
           <a class="navigation--item">For Teams</a>
         </li>
       </ol>
@@ -201,5 +201,11 @@ li {
   flex-shrink: 10000;
   flex-grow: 1;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 980px) {
+  .md\:d-none {
+    display: none !important;
+  }
 }
 </style>
