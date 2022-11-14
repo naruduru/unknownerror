@@ -19,7 +19,7 @@
             </div>
           </div>
         </li>
-        <li>
+        <li class="s-sidebarwidget--item d-flex px16">
           <div>
             <svg style="width: 14px; height: 14px">
             </svg>
@@ -30,14 +30,14 @@
             </a>
           </div>
         </li>
-        <li>
+        <li class="s-sidebarwidget--header s-sidebarwidget__small-bold-text d-flex fc-black-600 d:fc-black-900 bb bbw1">
           Upcoming Events
         </li>
         <li>
           <div>
             <div></div>
           </div>
-          <div>
+          <div class="s-sidebarwidget--item d-flex px16">
             <a>2022 Community Moderator Election</a>
             <div>
               ends
@@ -45,10 +45,10 @@
             </div>
           </div>
         </li>
-        <li>
+        <li class="s-sidebarwidget--header s-sidebarwidget__small-bold-text d-flex fc-black-600 d:fc-black-900 bb bbw1">
           Featured on Meta
         </li>
-        <li>
+        <li class="s-sidebarwidget--item d-flex px16">
           <div>
             <svg style="width: 14px; height: 14px">
             </svg>
@@ -59,7 +59,7 @@
             </a>
           </div>
         </li>
-        <li>
+        <li class="s-sidebarwidget--item d-flex px16">
           <div>
             <svg style="width: 14px; height: 14px">
             </svg>
@@ -70,7 +70,7 @@
             </a>
           </div>
         </li>
-        <li>
+        <li class="s-sidebarwidget--item d-flex px16">
           <div>
             <svg style="width: 14px; height: 14px">
             </svg>
@@ -81,7 +81,7 @@
             </a>
           </div>
         </li>
-        <li>
+        <li class="s-sidebarwidget--item d-flex px16">
           <div>
             <svg style="width: 14px; height: 14px">
             </svg>
