@@ -30,7 +30,7 @@ export default {
 }
 
 @media screen and (max-width: 640px){
-  .content {
+  #content {
     width: 100%;
   }
 }
