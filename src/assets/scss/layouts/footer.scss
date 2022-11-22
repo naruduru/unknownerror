@@ -1,0 +1,34 @@
+#footer {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.site-footer * {
+  box-sizing: border-box;
+}
+
+.site-footer {
+  background-color: hsl(210,8%,15%);
+  background-image: none;
+  background-position: top left;
+  background-repeat: no-repeat;
+  border-top: 0;
+  background-size: auto;
+  color: hsl(210,8%,60%);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.site-footer--container {
+  max-width: $global_width;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 12px 12px 12px;
+  display: flex;
+  flex-flow: row wrap;
+}

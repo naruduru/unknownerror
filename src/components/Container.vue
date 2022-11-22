@@ -16,6 +16,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/variables.scss";
+
 .container {
   display: flex;
   position: relative;

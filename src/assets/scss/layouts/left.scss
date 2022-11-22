@@ -1,0 +1,41 @@
+.left-side {
+  width: 164px;
+  flex-shrink: 0;
+  z-index: 1000;
+  position: relative !important;
+}
+
+.left-side--sticky-container {
+  position: sticky;
+  width: auto;
+  overflow-y: auto;
+  max-height: calc(100vh - 50px);
+  top: 24px;
+  margin-bottom: 8px;
+  padding-top: 24px;
+}
+
+.left-side-nav {
+  display: block;
+}
+
+.nav-links {
+  padding: 0;
+  margin: 0 0 12px;
+  list-style: none;
+}
+
+.ps-relative {
+  position: relative !important;
+}
+
+.nav-links .nav-links--link, .nav-links .nav-links--link:visited {
+  color: hsl(210,8%,35%);
+}
+
+.nav-links .nav-links--link {
+  display: block;
+  padding: 4px 4px 4px 30px;
+  line-height: 2;
+  font-size: 13px;
+}

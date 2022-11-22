@@ -1,0 +1,28 @@
+.middle {
+  width: calc(100% - 300px - 24px);
+  float: left;
+}
+
+.s-btn__primary {
+  color: $white;
+  background-color: $blue-500;
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 40%);
+}
+
+.s-btn {
+  position: relative;
+  display: inline-block;
+  padding: 0.8em;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  outline: none;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: calc((13 + 2) / 13);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-color: $powder-500;
+}
